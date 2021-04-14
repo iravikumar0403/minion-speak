@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background-color: #f3f3f3;
+}
+
+nav{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+}
+
+#txt-input{
+    display: block;
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    height: 15rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#translate-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#output{
+    border: 1px solid black;
+    max-width: 800px;
+    width: 90%;
+    height: 15rem;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px auto;
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    padding: 50px;
+}
+
+.txt{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
